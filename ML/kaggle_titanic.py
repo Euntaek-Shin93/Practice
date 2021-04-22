@@ -239,3 +239,7 @@ submission.head()
 
 # %%
 submission.to_csv("submission.csv", index = False)
+
+# Reference 
+# https://www.kaggle.com/dejavu23/titanic-eda-to-ml-beginner
+# https://github.com/TEAMLAB-Lecture/AI-python-connect/blob/master/codes/ch_2/5/titanic/titanic_solution.ipynb
