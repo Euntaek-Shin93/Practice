@@ -111,3 +111,6 @@ print('Predicted :', ''.join(' %5s' % classes[idx[j]] for j in range(4)))
 model = Net()
 model.load_state_dict(torch.load(PATH))
 model.eval()  #evaluation mode로 들어가 train mode 대신 dropout비활성화 / BN 저장된거 사용
+
+
+# Reference : https://tutorials.pytorch.kr/beginner/blitz/cifar10_tutorial.html#sphx-glr-beginner-blitz-cifar10-tutorial-py
