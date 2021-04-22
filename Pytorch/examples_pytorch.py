@@ -96,3 +96,5 @@ autograd의 추적을 피하기 위해서
 
 # %%
 optimzer = torch.optim.Adam(model.parameters(), lr = learning_rate)
+
+# Reference : https://tutorials.pytorch.kr/beginner/blitz/autograd_tutorial.html#sphx-glr-beginner-blitz-autograd-tutorial-py
