@@ -192,3 +192,5 @@ loss.backward()
 optimzer.step()
 
 # optimizer.zero_grad() -> loss.backward() -> optimzer.step()
+
+#Reference : https://tutorials.pytorch.kr/beginner/blitz/tensor_tutorial.html#sphx-glr-beginner-blitz-tensor-tutorial-py
